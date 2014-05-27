@@ -1,4 +1,4 @@
-
+import os
 import subprocess
 import re
 import sys
@@ -26,8 +26,11 @@ def main():
     file = open("tweets.txt", "w")
     file.write(all_tweets)
     file.close()
-
-    output = subprocess.check_output('python get_top_keywords.py tweets.txt')
+    
+    current_directory = os.getcwd()
+    os.chdir(current_directory)
+    output = subprocess.check_output('python get_top_keywords.py tweets.txt', shell=True)
+    print output
 
 
 if __name__ == '__main__':
