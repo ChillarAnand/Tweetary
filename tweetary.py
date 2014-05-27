@@ -22,7 +22,6 @@ def get_tweets(username):
 
 def main():
     username = sys.argv[1]
-    print username
     all_tweets = get_tweets(username)
     file = open("tweets.txt", "w")
     file.write(all_tweets)
