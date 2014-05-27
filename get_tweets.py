@@ -1,4 +1,3 @@
-#! usr/bin/python
 
 import subprocess
 import re
@@ -28,7 +27,8 @@ def main():
     file.write(all_tweets)
     file.close()
 
-    output = subprocess.check_output('python keywords.py tweets.txt')
+    output = subprocess.check_output('python get_top_keywords.py tweets.txt')
+
 
 if __name__ == '__main__':
     main()
