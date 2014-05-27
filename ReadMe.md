@@ -9,4 +9,8 @@ Tweetary gives top 25 most used words by any twitter user
 
     python tweetary.py <username>
 
+### Sample  Output
+
+![tweetary](http://4.bp.blogspot.com/-NYR-FNqUHTo/U4R_sM2uY0I/AAAAAAAAKi8/svveFFAEKAU/s1600/tweet-summary.png)
+
 
