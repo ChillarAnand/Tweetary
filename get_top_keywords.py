@@ -1,6 +1,4 @@
 #!/usr/bin/python
-# This script scans a text file and creates tags of the most used words.
-# The script has been released under BSD license. Copyright (C) 2010 Reiner Rottmann <reiner@rottmann.it>
 
 import string 
 
@@ -107,7 +105,11 @@ def main():
                 print "ERROR: Input file could not be opened."
                 usage()
     # get top 25 used words
-    print get_most_used_words(text,25)
+    words = get_most_used_words(text,25)
+    words = words.split()
+    for word in words:
+        print word
+
 
 # run main function if called directly
 if __name__=="__main__":
