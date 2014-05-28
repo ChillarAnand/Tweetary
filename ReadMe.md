@@ -14,3 +14,7 @@ Tweetary gives top 25 most used words by any twitter user
 ![tweetary](http://3.bp.blogspot.com/-ix0uRmAsUE8/U4SLxIxwjVI/AAAAAAAAKjI/rVNIiSDgboQ/s1600/tweet-summary.png)
 
 
+### Features to be added
+
+Concept extraction from tweets.
+Graphs for tweet stats
